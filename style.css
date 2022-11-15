@@ -1,8 +1,19 @@
 body {
-  font-family: "Roboto";
+  font-family: "Roboto, sans-serif";
   font-style: normal;
+  font-weight: 400;
 }
 
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -11,13 +22,7 @@ h2 {
   align-items: center;
   text-align: center;
   color: #152d41;
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
+  margin-top: 20%;
 }
 
 .paragraf {
@@ -107,39 +112,32 @@ button:hover {
 
 .topics {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin: auto;
-}
-
-.post-title {
-  width: 23%;
-  margin: button 20px;
+  padding: auto;
 }
 
 .post-title_image {
   display: block;
-  position: absolute;
   width: 197px;
   height: 197px;
   border-radius: 50%;
-  margin-left: right;
+  margin-right: 20%;
+  margin-top: 20%;
 }
 .post-title_image2 {
   display: block;
-  position: absolute;
   width: 197px;
   height: 197px;
   border-radius: 50%;
-  margin-right: left;
+  margin-left: 80%;
 }
 
-.post-title_title {
-  position: absolute;
-  width: 866px;
-  height: 104px;
+.post-title_title2 {
+  width: 1192px;
   margin-top: 15px;
   margin-bottom: 15px;
+  text-decoration: solid;
 }
 
 .post-title_text {
@@ -149,4 +147,58 @@ button:hover {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+  margin-right: 54px;
+  margin-left: 360px;
 }
+.post-title_text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  padding: 10px;
+  margin-right: 347px;
+  margin-left: 122px;
+  justify-content: center;
+  color: #000000;
+
+
+  .page-container {
+    width: 100%;
+    max-width: 1340px;
+    margin: 0 auto;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background: #405D78;
+  }
+  .flex-container > div {
+    background: #F1F1F1;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+
+
+
+
+
+  /* --------- Media Queries --------- */
+  @media screen and (max-width: 768px) {
+    .post-title {
+      width: 48%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .post-title {
+      width: 100%;
+    }
+  }
