@@ -26,33 +26,31 @@
         <nav>
           <ul class="main-navigation">
             <li class="main-navigation-el">
-              <a class="main-nav-link" href="#">O nas</a>
+              <a class="main-nav-link" href="#">o nas</a>
             </li>
             <li class="main-navigation-el">
-              <a class="main-nav-link" href="#">Oferta</a>
+              <a class="main-nav-link" href="#">oferta</a>
             </li>
             <li class="main-navigation-el">
-              <a class="main-nav-link" href="#">Kontakt</a>
+              <a class="main-nav-link" href="#">kontakt</a>
             </li>
           </ul>
         </nav>
       </div>
     </div>
-    <header class="page-header">
-      <img src="assets\img\header.png" />
-
-      <h1>Nasza firma oferuje najwyższej <br />jakości produkty.</h1>
-
-      <div class="paragraf">
-        <p>Nie wierz nam na słowo-sprawdź</p>
+    <div class="page-header">
+      <div class="page-header-shadow">
+        <div class="page-header-conteiner">
+          <h1>Nasza firma oferuje najwyższej <br />jakości produkty.</h1>
+          <p>Nie wierz nam na słowo - sprawdź</p>
+          <button>oferta</button>
+        </div>
       </div>
-      <button class="Btn">oferta</button>
-    </header>
+    </div>
 
     <main>
       <section>
         <h2>Nasi specjaliści</h2>
-
         <div class="topics">
           <article class="post-title">
             <img
@@ -60,44 +58,48 @@
               alt="post-image"
               class="post-title_image"
             />
-            <p class="post-title_title2">Imię Nazwisko (dział)</p>
-            <p class="post-title_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae expedita iusto at molestiae quisquam error eligendi
-              maiores voluptatem ratione incidunt nulla id, tempore quasi sunt
-              nostrum, cupiditate officia aspernatur laboriosam?
-            </p>
+            <div>
+              <p class="post-title_title">Imię Nazwisko (dział)</p>
+              <p class="post-title_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae expedita iusto at molestiae quisquam error eligendi
+                maiores voluptatem ratione incidunt nulla id, tempore quasi sunt
+                nostrum, cupiditate officia aspernatur laboriosam?
+              </p>
+            </div>
           </article>
         </div>
         <div class="topics">
           <article class="post-title">
+            <div>
+              <p class="post-title_title2">Imię Nazwisko (dział)</p>
+              <p class="post-title_text2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae expedita iusto at molestiae quisquam error eligendi
+                maiores voluptatem ratione incidunt nulla id, tempore quasi sunt
+                nostrum, cupiditate officia aspernatur laboriosam?
+              </p>
+            </div>
             <img
               src="assets\img\men.png"
               alt="post-image"
-              class="post-title_image2"
+              class="post-title_image"
             />
-            <p class="post-title_title2">Imię Nazwisko (dział)</p>
-            <p class="post-title_text2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae expedita iusto at molestiae quisquam error eligendi
-              maiores voluptatem ratione incidunt nulla id, tempore quasi sunt
-              nostrum, cupiditate officia aspernatur laboriosam?
-            </p>
           </article>
         </div>
       </section>
     </main>
     <main class="page-container">
       <h2>Czym zajmuje się nasza firma?</h2>
-      <div class="flex-container">
-        <div>Usługa 1(nowość)</div>
-        <div>Usługa 2</div>
-        <div>Usługa 3</div>
-        <div>Usługa 4</div>
-        <div>Usługa 5</div>
-        <div>Usługa 6</div>
-      </div>
+      <div class="grid-container">
+        <div class="grid-item">Usługa 1 <br><h6>(nowość)<h6></h6></div>
+        <div class="grid-item">Usługa 2</div>
+        <div class="grid-item">Usługa 3</div>  
+        <div class="grid-item">Usługa 4</div>
+        <div class="grid-item">Usługa 5</div>
+        <div class="grid-item">Usługa 6</div> 
     </main>
+
     <footer>Footer</footer>
   </body>
 </html>
