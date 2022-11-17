@@ -184,12 +184,16 @@ button:hover {
   display: grid;
   grid-template-columns: 198px 198px 198px;
   grid-template-rows: 193px 193px 193px;
-  padding: 82px;
   column-gap: 63px;
   row-gap: 63px;
+  padding: 291px 173px 269px 64px;
   background-color: #405d78;
+  transition: width 0.5s, height 0.5s;
 }
 
+.grid-container:hover {
+  transform: scale(1.05);
+}
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -200,6 +204,33 @@ button:hover {
   font-size: 24px;
   align-items: center;
   padding-top: 65px;
+}
+
+.footer p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #4e4e4e;
+  height: 71px;
+}
+
+.instagram-brands {
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  background: #ffffff;
+}
+.facebook-brands {
+  background: #ffffff;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 }
 
 /* --------- Media Queries --------- */
