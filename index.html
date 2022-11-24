@@ -12,6 +12,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
+      integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/sprites/brands.svg"
+      rel="stylesheet2"
+    />
+
+    <link
       href="https://fonts.googleapis.com/css2?rodzina=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
@@ -22,17 +34,17 @@
   <body>
     <div class="navbar-container">
       <div class="navbar">
-        <p>Moja firma</p>
+        <p>moja firma</p>
         <nav>
           <ul class="main-navigation">
             <li class="main-navigation-el">
-              <a class="main-nav-link" href="#">o nas</a>
+              <a class="main-nav-link" href="#onas">o nas</a>
             </li>
             <li class="main-navigation-el">
-              <a class="main-nav-link" href="#">oferta</a>
+              <a class="main-nav-link" href="#oferta">oferta</a>
             </li>
-            <li class="main-navigation-el">
-              <a class="main-nav-link" href="#">kontakt</a>
+            <li class="main-navigation-el-kontakt">
+              <a class="main-nav-link">kontakt</a>
             </li>
           </ul>
         </nav>
@@ -43,12 +55,11 @@
         <div class="page-header-conteiner">
           <h1>Nasza firma oferuje najwyższej <br />jakości produkty.</h1>
           <p>Nie wierz nam na słowo - sprawdź</p>
-          <button>oferta</button>
+          <button class="btn"><a href="#button">oferta</a></button>
         </div>
       </div>
     </div>
-
-    <main>
+    <main id="onas" class="page-container2">
       <section>
         <h2>Nasi specjaliści</h2>
         <div class="topics">
@@ -89,24 +100,34 @@
         </div>
       </section>
     </main>
-    <main class="page-container">
-      <h2>Czym zajmuje się nasza firma?</h2>
-      <div class="grid-container">
-        <div class="grid-item">Usługa 1 <br><h6>(nowość)<h6></h6></div>
-        <div class="grid-item">Usługa 2</div>
-        <div class="grid-item">Usługa 3</div>  
-        <div class="grid-item">Usługa 4</div>
-        <div class="grid-item">Usługa 5</div>
-        <div class="grid-item">Usługa 6</div> 
+    <main id="button" class="page-container">
+      <main id="oferta" class="page-container3">
+        <h3>Czym zajmuje się nasza firma?</h3>
+        <div class="grid-container">
+          <div class="grid-item">
+            Usługa 1 <br />
+            <h6>(nowość)</h6>
+            <div class="circle"></div>
+          </div>
+          <div class="grid-item">Usługa 2</div>
+          <div class="grid-item">Usługa 3</div>
+          <div class="grid-item">Usługa 4</div>
+          <div class="grid-item">Usługa 5</div>
+          <div class="grid-item">Usługa 6</div>
+        </div>
+      </main>
     </main>
-<div class="footer">
-<p>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</p>
-<script class="instagram-brands"></script>
-<img src="assets/img/instagram.svg"
-alt="facebook-image"/>
-<script class="facebook-brands"></script>
-<img src="assets/img/facebook.svg"/>
-</div>
+    <div class="footer">
+      <p>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</p>
+      <div class="link_container">
+        <a class="link" href="https://instagram.com">
+          <div class="fa-brands fa-instagram socialmedia-icon"></div
+        ></a>
 
+        <a class="link" href="https://facebook.com">
+          <div class="fa-brands fa-facebook-square socialmedia-icon"></div>
+        </a>
+      </div>
+    </div>
   </body>
 </html>
