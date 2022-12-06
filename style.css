@@ -19,7 +19,6 @@ h2 {
   line-height: 42px;
   text-align: left;
   color: #152d41;
-  line-height: 3;
   padding-left: 94px;
   padding-top: 51px;
 }
@@ -53,11 +52,11 @@ ul {
 .navbar {
   width: 100vh;
   max-width: 1280px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
+  margin-left: 94px;
 }
 
 .page-header {
@@ -180,6 +179,7 @@ a:hover {
   width: 450px;
   height: 200px;
   border-radius: 50%;
+  margin-right: 54px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -187,19 +187,21 @@ a:hover {
 
 .first-image {
   background-image: url("assets/img/men2.png");
+  margin-left: 94px;
 }
 .second-image {
   background-image: url("assets/img/men.png");
 }
 .post-title_title2 {
   text-align: right;
-  padding: 10px;
+  padding-right: 60px;
 }
 
 .post-title_text {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  margin-right: 54px;
   color: #000000;
 }
 .post-title_text2 {
@@ -207,7 +209,8 @@ a:hover {
   font-size: 18px;
   line-height: 21px;
   text-align: right;
-
+  margin-left: 94px;
+  padding-right: 60px;
   color: #000000;
 }
 
@@ -244,13 +247,10 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-
   background: #f1f1f1;
-
   font-size: 24px;
   align-items: center;
   justify-content: center;
-
   position: relative;
   display: flex;
   flex-direction: column;
