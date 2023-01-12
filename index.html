@@ -23,18 +23,17 @@
       rel="stylesheet2"
     />
     <link
-      href="https://fonts.googleapis.com/css2?rodzina=Roboto:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?rodzina=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
    
   </head>
   <body>
-    <div class="main-container">
+    <nav class="main-container">
       <div class="navbar-container">
         <div class="navbar">
           <p>moja firma</p>
-          <nav>
             <ul class="main-navigation">
               <li class="main-navigation-el">
                 <a class="main-nav-link" href="#onas">o nas</a>
@@ -46,20 +45,19 @@
                 <a class="main-nav-link" disabled>kontakt</a>
               </li>
             </ul>
-          </nav>
         </div>
-      </div>
-      <div class="page-header">
+      </nav>
+      <header class="page-header">
         <div class="page-header-shadow">
-          <div class="page-header-conteiner">
+          <div class="page-header-conteiner container">
             <h1>Nasza firma oferuje najwyższej <br />jakości produkty.</h1>
             <p>Nie wierz nam na słowo - sprawdź</p>
             <a class="btn" href="#button">oferta</a>
           </div>
         </div>
-      </div>
-      <main id="onas" class="page-container2">
-        <section>
+      </header>
+      <main>
+      <section id="onas" class="page-container2 container">
           <h2>Nasi specjaliści</h2>
             <article class="post-title">
               <div class="post-title_image first-image"></div>
@@ -86,15 +84,12 @@
               </div>
             </article>
         </section>
-        </main>
-   
-     
-      <main id="button" class="page-container">
-        <main id="oferta" class="page-container3">
+      <section id="oferta" class="page-container">
+        <div class="container">
           <h3>Czym zajmuje się nasza firma?</h3>
           <div class="grid-container">
-            <div class="grid-item">
-              Usługa 1 <br />
+            <div class="grid-item first-item">
+              <span>Usługa 1</span>
               <h6>(nowość)</h6>
               <div class="circle"></div>
             </div>
@@ -104,9 +99,10 @@
             <div class="grid-item">Usługa 5</div>
             <div class="grid-item">Usługa 6</div>
           </div>
-          </main>
-          </main>
-      <div class="footer">
+        </div>
+        </section>
+      </main>
+      <footer class="footer">
         <p>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</p>
         <div class="link_container">
           <a class="link" href="https://instagram.com">
@@ -116,8 +112,6 @@
             <div class="fa-brands fa-facebook-square socialmedia-icon"></div>
           </a>
         </div>
-      </div>
-  </div>
-  </div>
+      </footer>
   </body>
 </html>

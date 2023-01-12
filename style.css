@@ -18,35 +18,28 @@ h2 {
   line-height: 42px;
   text-align: left;
   color: #152d41;
-  padding-left: 94px;
-  padding-top: 51px;
   width: 386px;
   height: 69px;
 }
 
 h3 {
   font-size: 36px;
-  line-height: 142px;
   vertical-align: text-top;
   color: #ffffff;
   margin: 0%;
   height: 0px;
-  padding-left: 110px;
-  padding-top: 62px;
 }
 
 h6 {
   align-items: center;
   text-align: center;
-  margin-top: 0%;
+  margin: 0;
 }
 
 ul {
   list-style: none;
 }
-.main-container {
-  width: 960px;
-}
+
 .navbar-container {
   height: 50px;
   width: 100%;
@@ -70,31 +63,22 @@ ul {
 
 .page-header {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 50px);
   background: url("assets/img/header.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  line-break: auto;
 }
 .page-header-shadow {
   background: rgba(0, 0, 0, 0.15);
   width: 100%;
   height: 100%;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #ffffff;
-  line-break: auto;
+  align-items: center;
+}
+.container {
+  width: 960px;
+  padding-left: 94px;
 }
 
 .page-header-conteiner h1 {
@@ -104,8 +88,6 @@ ul {
   display: flex;
   align-items: center;
   color: #ffffff;
-  padding-left: 94px;
-  padding-top: 62px;
 }
 
 .page-header-conteiner p {
@@ -113,10 +95,8 @@ ul {
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
-  text-align: left;
   margin-bottom: 23px;
   padding-top: 62px;
-  padding-left: 94px;
 }
 .btn {
   border: 3px solid #ffffff;
@@ -130,7 +110,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 94px;
   margin-bottom: 177px;
 }
 .btn:hover {
@@ -184,10 +163,9 @@ a:hover {
 
 .post-title_image {
   display: block;
-  width: 450px;
+  aspect-ratio: 1;
   height: 200px;
   border-radius: 50%;
-  margin-right: 54px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -195,7 +173,6 @@ a:hover {
 
 .first-image {
   background-image: url("assets/img/men2.png");
-  margin-left: 94px;
 }
 .second-image {
   background-image: url("assets/img/men.png");
@@ -238,6 +215,13 @@ a:hover {
 .page-container {
   width: 100%;
   margin: 0 auto;
+  background-color: #405d78;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.page-container2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .page-container h2 {
   font-weight: 700;
@@ -253,15 +237,13 @@ a:hover {
   grid-template-rows: 193px 193px;
   column-gap: 63px;
   row-gap: 63px;
-  background-color: #405d78;
-  transition: width 5s, height 5s;
-  padding-right: 269px;
-  padding-left: 291px;
+  transition: width 0.5s, height 0.5s;
+
+  padding-left: 200px;
   padding-top: 174px;
   padding-bottom: 64px;
   flex-direction: column-reverse;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .grid-item:hover {
@@ -270,14 +252,16 @@ a:hover {
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
   text-align: center;
   background: #f1f1f1;
-  line-height: 28px;
   font-size: 24px;
   align-items: center;
-  padding-top: 59px;
   position: relative;
+  display: flex;
+  justify-content: center;
+}
+.first-item {
+  flex-direction: column;
 }
 .new-offer {
   margin: 0;
